@@ -1,0 +1,14 @@
+GET http://localhost:3000/subscribers
+###
+GET http://localhost:3000/subscribers/5fe4cd1d994e7133a882225er
+###
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+
+"name":"rishabh",
+"subscribedToChannel":"cide qith harry"
+}
+###
+DELETE http://localhost:3000/subscribers/5fe4cd1d994e7133a882225er
